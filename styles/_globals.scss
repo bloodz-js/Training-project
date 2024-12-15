@@ -12,6 +12,17 @@ body {
   min-height: 100vh; /* Растягиваем на всю высоту */
 }
 
+.background {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.background-image {
+  position: absolute;
+  z-index: 0;
+}
+
 a,
 button,
 input,

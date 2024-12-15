@@ -30,9 +30,13 @@
     padding-bottom: 40px;
   }
 
+  &__image {
+    
+  }
+
   &__button {
     .arrow{
-      
+      margin-left: 10px;
     }
   }
 }

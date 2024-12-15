@@ -292,6 +292,16 @@ body {
   min-height: 100vh; /* Растягиваем на всю высоту */
 }
 
+.background {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.background-image {
+  position: absolute;
+  z-index: 0;
+}
+
 a,
 button,
 input,
@@ -440,6 +450,9 @@ h2 {
 }
 .hero__description {
   padding-bottom: 40px;
+}
+.hero__image {
+  z-index: 1;
 }
 .hero__button .arrow {
   margin-left: 10px;

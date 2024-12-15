@@ -30,6 +30,10 @@
     padding-bottom: 40px;
   }
 
+  &__image {
+    z-index: 1;
+  }
+
   &__button {
     .arrow{
       margin-left: 10px;
