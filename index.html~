@@ -10,12 +10,15 @@
 </head>
 <body>
 <div class="background-gradient">
-	<img
-			class="background-image"
-			src="./images/background-image.svg"
-			alt=""
-			width="802" height="791" loading="lazy"
-	/>
+	<div class="background">
+		<img
+				class="background-image"
+				src="./images/background-image.svg"
+				alt=""
+				width="802" height="791" loading="lazy"
+		/>
+	</div>
+
 	<header class="header container">
 		<div class="header__inner">
 			<a href="/" class="header__logo logo">
