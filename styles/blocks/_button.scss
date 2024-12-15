@@ -1,0 +1,26 @@
+.button {
+  @include flex-center(true);
+  height: var(--button-height);
+  padding-inline: 14px;
+  color: var(--color-white);
+  background-color: var(--color-main);
+  border-radius: var(--border-radius-button);
+  border: none;
+
+
+  @include hover {
+    box-shadow: var(--shadow-hover);
+    transform: scale(1.05);
+  }
+
+  &--transparent {
+  background-color: transparent;
+  border: 2px solid var(--color-white);
+
+  @include hover {
+    box-shadow: var(--shadow);
+    transform: scale(1.05);
+  }
+  }
+}
+

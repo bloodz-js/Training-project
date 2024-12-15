@@ -1,0 +1,36 @@
+body {
+
+  font-family: var(--font-family-base);
+  font-weight: 700;
+  line-height: 1.28;
+  color: var(--color-white);
+  background-color: var(--color-background);
+}
+
+.background-gradient {
+  background: var(--color-gradient);
+  min-height: 100vh; /* Растягиваем на всю высоту */
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+  transition: var(--tranistion-duration);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
