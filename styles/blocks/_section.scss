@@ -1,3 +1,9 @@
 .section {
     padding-block: var(--section-padding-y-landing);
+
+    &__header {
+        flex: 1;
+        max-width: 370px;
+    }
 }
+

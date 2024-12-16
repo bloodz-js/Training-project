@@ -28,6 +28,8 @@
       align-items: center;
       height: 36px;
       position: relative;
+      line-height: 18px;
+      font-size: 14px;
 
       &::before{
         content: '';
