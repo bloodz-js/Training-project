@@ -1,0 +1,14 @@
+.subtitle {
+  display: inline-block;
+  color: var(--color-white);
+  background-color: var(--color-main);
+  border-radius: var(--border-radius-subtitle);
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 20px;
+
+  span{
+    @include flex-center(true);
+  }
+}

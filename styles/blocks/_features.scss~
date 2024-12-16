@@ -1,0 +1,25 @@
+.features {
+
+  &__title {
+    padding-bottom: 40px;
+  }
+
+  &__description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  &__list {
+    flex: 2;
+    &:not(:last-child) {
+      margin-bottom: 100px;
+    }
+  }
+  &__layout {
+    display: flex; /* Включаем flex-контейнер */
+    align-items: flex-start;
+    gap: 40px;
+  }
+}
+

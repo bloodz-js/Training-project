@@ -15,7 +15,7 @@
 				class="background-image"
 				src="./images/background-image.svg"
 				alt=""
-				width="802" height="791" loading="lazy"
+				width="902" height="791" loading="lazy"
 		/>
 	</div>
 
@@ -79,11 +79,15 @@
 								width="569" height="327" loading="lazy"
 						/>
 					</div>
+				</div>
+			</div>
+		</section>
 </div>
-
-
+			<section class="section container">
 				<div class="hero__partners">
-					<span class="subtitle">Integrations</span>
+					<div class="hero__partners--subtitle">
+						<span class="subtitle">Integrations</span>
+					</div>
 					<div class="hero__partners--landing">
 						<h2>We are Integrated with industry best service providers</h2>
 					</div>
@@ -122,10 +126,128 @@
 						</li>
 					</ul>
 				</div>
-			</div>
-		</div>
-	</section>
-</main>
+			</section>
 
+			<section class="section container">
+				<div class="section__body features__layout">
+					<header class="section__header">
+						<span class="subtitle">Features</span>
+						<h2 class="features__title">Get complete visibility and control</h2>
+						<div class="features__description">
+							<p>Projectile helps you collaborate more smoothly and communicate better.</p>
+						</div>
+					</header>
+					<ul class="feature__list grid grid--2">
+						<li class="features__item">
+							<article class="features--card">
+								<div class="features--card__top">
+									<svg width="64" height="65" viewBox="0 0 64 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect y="0.642578" width="64" height="64" rx="12" fill="#398378"/>
+										<path d="M32.0012 35.6119C33.3128 35.6119 34.3762 34.5487 34.3762 33.2369C34.3762 31.9252 33.3128 30.8619 32.0012 30.8619C30.6895 30.8619 29.6262 31.9252 29.6262 33.2369C29.6262 34.5487 30.6895 35.6119 32.0012 35.6119Z" fill="white"/>
+										<path d="M45.4431 32.0326L41.5007 24.0533V18.3932C41.5007 17.7633 41.2505 17.1592 40.8051 16.7138C40.3598 16.2684 39.7557 16.0182 39.1257 16.0182H24.8757C24.2459 16.0182 23.6418 16.2684 23.1964 16.7138C22.751 17.1592 22.5007 17.7633 22.5007 18.3932V24.0533L18.5584 32.0327C18.3645 32.4229 18.2822 32.8591 18.3204 33.2932C18.3586 33.7273 18.516 34.1423 18.775 34.4927L29.7414 49.3896C29.8155 49.4903 29.9195 49.565 30.0387 49.6031C30.1578 49.6412 30.286 49.6407 30.4047 49.6017C30.5236 49.5626 30.627 49.4871 30.7004 49.3858C30.7738 49.2845 30.8132 49.1626 30.8132 49.0375V37.8366C29.6939 37.5476 28.7182 36.8602 28.0694 35.9034C27.4205 34.9465 27.1429 33.7858 27.2886 32.6389C27.4343 31.492 27.9933 30.4377 28.8607 29.6734C29.7282 28.9091 30.8447 28.4874 32.0007 28.4874C33.1569 28.4874 34.2734 28.9091 35.1408 29.6734C36.0083 30.4377 36.5672 31.492 36.7128 32.6389C36.8585 33.7858 36.5809 34.9465 35.9321 35.9034C35.2832 36.8602 34.3077 37.5476 33.1882 37.8366V49.0375C33.1882 49.1626 33.2278 49.2845 33.3011 49.3858C33.3744 49.4871 33.478 49.5626 33.5967 49.6017C33.7156 49.6406 33.8437 49.6412 33.9628 49.6031C34.0819 49.565 34.1861 49.4903 34.2602 49.3894L45.2264 34.4926C45.4855 34.1422 45.6428 33.7271 45.6811 33.2931C45.7192 32.8591 45.6369 32.4228 45.4431 32.0326ZM39.1257 23.1432H24.8757V18.3932H39.1257V23.1432Z" fill="white"/>
+									</svg>
+
+									<h3 class="features--card__title">
+										Customer management
+									</h3>
+								</div>
+									<p class="features--card__description">
+										Monitor progress against your plans and address deviations faster.
+									</p>
+							</article>
+						</li>
+						<li class="feature__item">
+							<article class="features--card">
+								<div class="features--card__top">
+									<svg width="64" height="65" viewBox="0 0 64 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect y="0.642578" width="64" height="64" rx="12" fill="#398378"/>
+										<path d="M32.0012 35.6119C33.3128 35.6119 34.3762 34.5487 34.3762 33.2369C34.3762 31.9252 33.3128 30.8619 32.0012 30.8619C30.6895 30.8619 29.6262 31.9252 29.6262 33.2369C29.6262 34.5487 30.6895 35.6119 32.0012 35.6119Z" fill="white"/>
+										<path d="M45.4431 32.0326L41.5007 24.0533V18.3932C41.5007 17.7633 41.2505 17.1592 40.8051 16.7138C40.3598 16.2684 39.7557 16.0182 39.1257 16.0182H24.8757C24.2459 16.0182 23.6418 16.2684 23.1964 16.7138C22.751 17.1592 22.5007 17.7633 22.5007 18.3932V24.0533L18.5584 32.0327C18.3645 32.4229 18.2822 32.8591 18.3204 33.2932C18.3586 33.7273 18.516 34.1423 18.775 34.4927L29.7414 49.3896C29.8155 49.4903 29.9195 49.565 30.0387 49.6031C30.1578 49.6412 30.286 49.6407 30.4047 49.6017C30.5236 49.5626 30.627 49.4871 30.7004 49.3858C30.7738 49.2845 30.8132 49.1626 30.8132 49.0375V37.8366C29.6939 37.5476 28.7182 36.8602 28.0694 35.9034C27.4205 34.9465 27.1429 33.7858 27.2886 32.6389C27.4343 31.492 27.9933 30.4377 28.8607 29.6734C29.7282 28.9091 30.8447 28.4874 32.0007 28.4874C33.1569 28.4874 34.2734 28.9091 35.1408 29.6734C36.0083 30.4377 36.5672 31.492 36.7128 32.6389C36.8585 33.7858 36.5809 34.9465 35.9321 35.9034C35.2832 36.8602 34.3077 37.5476 33.1882 37.8366V49.0375C33.1882 49.1626 33.2278 49.2845 33.3011 49.3858C33.3744 49.4871 33.478 49.5626 33.5967 49.6017C33.7156 49.6406 33.8437 49.6412 33.9628 49.6031C34.0819 49.565 34.1861 49.4903 34.2602 49.3894L45.2264 34.4926C45.4855 34.1422 45.6428 33.7271 45.6811 33.2931C45.7192 32.8591 45.6369 32.4228 45.4431 32.0326ZM39.1257 23.1432H24.8757V18.3932H39.1257V23.1432Z" fill="white"/>
+									</svg>
+
+									<h3 class="features--card__title">
+										Scheduling
+									</h3>
+								</div>
+									<p class="features--card__description">
+										Monitor progress against your plans and address deviations faster.
+									</p>
+							</article>
+						</li>
+						<li class="feature__item">
+							<article class="features--card">
+
+								<div class="features--card__top">
+									<svg width="64" height="65" viewBox="0 0 64 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect y="0.642578" width="64" height="64" rx="12" fill="#398378"/>
+										<path d="M45.0625 19.5801H18.9375C18.3078 19.5808 17.7042 19.8312 17.2589 20.2765C16.8137 20.7217 16.5632 21.3254 16.5625 21.9551V43.3301C16.5632 43.9597 16.8137 44.5634 17.2589 45.0086C17.7042 45.4539 18.3078 45.7044 18.9375 45.7051H45.0625C45.6921 45.7044 46.2958 45.4539 46.741 45.0086C47.1863 44.5634 47.4368 43.9597 47.4375 43.3301V21.9551C47.4368 21.3254 47.1863 20.7217 46.741 20.2765C46.2958 19.8312 45.6921 19.5808 45.0625 19.5801ZM18.9375 21.9551H45.0625L45.0629 27.8926H45.0625H18.9375V21.9551ZM45.0625 43.3301H29.625V30.2676H45.0625H45.0631L45.0639 43.3301H45.0625Z" fill="white"/>
+									</svg>
+
+									<h3 class="features--card__title">
+										Quotes and estimates
+									</h3>
+								</div>
+									<p class="features--card__description">
+										Monitor progress against your plans and address deviations faster.
+									</p>
+							</article>
+						</li>
+						<li class="feature__item">
+							<article class="features--card">
+								<div class="features--card__top">
+									<svg width="64" height="65" viewBox="0 0 64 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect y="0.642578" width="64" height="64" rx="12" fill="#398378"/>
+										<path d="M45.0625 19.5801H18.9375C18.3078 19.5808 17.7042 19.8312 17.2589 20.2765C16.8137 20.7217 16.5632 21.3254 16.5625 21.9551V43.3301C16.5632 43.9597 16.8137 44.5634 17.2589 45.0086C17.7042 45.4539 18.3078 45.7044 18.9375 45.7051H45.0625C45.6921 45.7044 46.2958 45.4539 46.741 45.0086C47.1863 44.5634 47.4368 43.9597 47.4375 43.3301V21.9551C47.4368 21.3254 47.1863 20.7217 46.741 20.2765C46.2958 19.8312 45.6921 19.5808 45.0625 19.5801ZM18.9375 21.9551H45.0625L45.0629 27.8926H45.0625H18.9375V21.9551ZM45.0625 43.3301H29.625V30.2676H45.0625H45.0631L45.0639 43.3301H45.0625Z" fill="white"/>
+									</svg>
+
+									<h3 class="features--card__title">
+										Credit card payment
+									</h3>
+								</div>
+									<p class="features--card__description">
+										Monitor progress against your plans and address deviations faster.
+									</p>
+							</article>
+						</li>
+						<li class="feature__item">
+							<article class="features--card">
+								<div class="features--card__top">
+									<img
+											class="features--card__image"
+											src="images/card-image-3.svg"
+											alt=""
+											width="64" height="64" loading="lazy"
+									>
+									<h3 class="features--card__title">
+										Referrals and reviews
+									</h3>
+								</div>
+									<p class="features--card__description">
+										Monitor progress against your plans and address deviations faster.
+									</p>
+							</article>
+						</li>
+						<li class="feature__item">
+							<article class="features--card">
+								<div class="features--card__top">
+									<img
+											class="features--card__image"
+											src="./images/card-image-3.svg"
+											alt=""
+											width="64" height="64" loading="lazy"
+									>
+									<h3 class="features--card__title">
+										Billing and invoicing
+									</h3>
+								</div>
+									<p class="features--card__description">
+										Monitor progress against your plans and address deviations faster.
+									</p>
+							</article>
+						</li>
+					</ul>
+				</div>
+			</section>
+	</main>
 </body>
 </html>

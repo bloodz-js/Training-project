@@ -1,6 +1,5 @@
 .header{
   padding: 30px 0;
-  background: var(--color-gradient);
 
   &__signup-demo {
     display: flex;
@@ -29,6 +28,8 @@
       align-items: center;
       height: 36px;
       position: relative;
+      line-height: 18px;
+      font-ziv
 
       &::before{
         content: '';

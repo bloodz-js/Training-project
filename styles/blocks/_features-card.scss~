@@ -1,0 +1,46 @@
+.features--card {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  min-height: 202px;
+  max-width: 370px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 10%);
+  border-radius: var(--border-radius-card-small);
+  box-shadow: var(--shadow);
+  transition:  ease-in-out 0.3s 0.05s;
+
+  &__top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    outline: 1px solid red;
+
+    svg {
+      width: 64px;
+      height: 65px;
+
+      & path {
+        fill: white;
+        }
+
+      & rect {
+        fill: var(--color-main);
+      }
+    }
+
+  }
+
+  &__description {
+    margin-top: auto;
+    display: flex;
+    align-items: end;
+  }
+
+  &:hover {
+    background-color: var(--color-main);
+    box-shadow: var(--shadow-hover);
+  }
+
+}

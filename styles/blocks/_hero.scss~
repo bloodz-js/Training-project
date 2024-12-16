@@ -7,7 +7,7 @@
   &__main {
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
     column-gap: 71px;
   }
 
@@ -20,23 +20,54 @@
     margin: 0;
     padding-bottom: 40px;
     white-space: pre-line;
+    line-height: 64px;
   }
 
-.change-color {
-  color: var(--color-main);
-}
+  .change-color {
+    color: var(--color-main);
+  }
 
   &__description {
     padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
   }
 
   &__image {
-    
+    z-index: 1;
   }
 
   &__button {
-    .arrow{
+    .arrow {
       margin-left: 10px;
+    }
+  }
+
+  &__partners {
+    display: flex;
+    flex-direction: column;
+
+    &--list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &--subtitle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &--landing {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      h2 {
+        margin: 0;
+        margin-bottom: 60px;
+      }
     }
   }
 }
