@@ -130,7 +130,7 @@
 
 			<section class="section container">
 				<div class="section__body features__layout">
-					<header class="section__header">
+					<header class="features__header">
 						<span class="subtitle">Features</span>
 						<h2 class="features__title">Get complete visibility and control</h2>
 						<div class="features__description">
@@ -212,12 +212,11 @@
 						<li class="feature__item">
 							<article class="features--card">
 								<div class="features--card__top">
-									<img
-											class="features--card__image"
-											src="images/card-image-3.svg"
-											alt=""
-											width="64" height="64" loading="lazy"
-									>
+									<svg width="64" height="65" viewBox="0 0 64 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect y="0.642578" width="64" height="64" rx="12" fill="#398378"/>
+										<path d="M38.9223 25.7203C38.5269 23.5939 37.5582 21.616 36.1209 20C34.6834 18.384 32.832 17.1913 30.7663 16.5506C28.7006 15.9099 26.4991 15.8455 24.3996 16.3645C22.3 16.8835 20.382 17.966 18.8527 19.4953C17.3234 21.0246 16.2409 22.9426 15.7219 25.0422C15.2029 27.1417 15.2673 29.3432 15.908 31.4089C16.5487 33.4745 17.7414 35.326 19.3574 36.7634C20.9734 38.2008 22.9513 39.1694 25.0777 39.5649C25.4731 41.6912 26.4418 43.6691 27.8791 45.2852C29.3166 46.9011 31.168 48.0939 33.2337 48.7346C35.2993 49.3753 37.5009 49.4396 39.6005 48.9207C41.7 48.4016 43.6179 47.3191 45.1473 45.7899C46.6765 44.2605 47.7591 42.3426 48.2781 40.2431C48.7971 38.1434 48.7327 35.9419 48.092 33.8763C47.4513 31.8106 46.2585 29.9592 44.6426 28.5217C43.0265 27.0844 41.0486 26.1157 38.9223 25.7203ZM17.75 27.8926C17.7501 25.5796 18.594 23.3461 20.1235 21.611C21.6529 19.8759 23.7628 18.7583 26.0574 18.4678C28.3521 18.1773 30.6739 18.7339 32.5875 20.0332C34.501 21.3325 35.8748 23.2852 36.4513 25.5252C33.4083 25.6051 30.5119 26.8496 28.3595 29.0021C26.2069 31.1545 24.9624 34.0508 24.8826 37.0939C22.8429 36.5661 21.036 35.3762 19.7452 33.7111C18.4544 32.0459 17.7527 29.9994 17.75 27.8926ZM36.75 46.8926C34.6431 46.8898 32.5967 46.1882 30.9315 44.8973C29.2663 43.6065 28.0765 41.7996 27.5487 39.76C30.5917 39.6801 33.4881 38.4356 35.6405 36.2831C37.7931 34.1306 39.0376 31.2343 39.1174 28.1912C41.3574 28.7678 43.3101 30.1416 44.6093 32.0551C45.9087 33.9687 46.4653 36.2906 46.1748 38.5852C45.8842 40.8798 44.7667 42.9897 43.0315 44.5191C41.2965 46.0485 39.063 46.8925 36.75 46.8926Z" fill="white"/>
+									</svg>
+
 									<h3 class="features--card__title">
 										Referrals and reviews
 									</h3>
@@ -230,12 +229,11 @@
 						<li class="feature__item">
 							<article class="features--card">
 								<div class="features--card__top">
-									<img
-											class="features--card__image"
-											src="./images/card-image-3.svg"
-											alt=""
-											width="64" height="64" loading="lazy"
-									>
+									<svg width="64" height="65" viewBox="0 0 64 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect y="0.642578" width="64" height="64" rx="12" fill="#398378"/>
+										<path d="M38.9223 25.7203C38.5269 23.5939 37.5582 21.616 36.1209 20C34.6834 18.384 32.832 17.1913 30.7663 16.5506C28.7006 15.9099 26.4991 15.8455 24.3996 16.3645C22.3 16.8835 20.382 17.966 18.8527 19.4953C17.3234 21.0246 16.2409 22.9426 15.7219 25.0422C15.2029 27.1417 15.2673 29.3432 15.908 31.4089C16.5487 33.4745 17.7414 35.326 19.3574 36.7634C20.9734 38.2008 22.9513 39.1694 25.0777 39.5649C25.4731 41.6912 26.4418 43.6691 27.8791 45.2852C29.3166 46.9011 31.168 48.0939 33.2337 48.7346C35.2993 49.3753 37.5009 49.4396 39.6005 48.9207C41.7 48.4016 43.6179 47.3191 45.1473 45.7899C46.6765 44.2605 47.7591 42.3426 48.2781 40.2431C48.7971 38.1434 48.7327 35.9419 48.092 33.8763C47.4513 31.8106 46.2585 29.9592 44.6426 28.5217C43.0265 27.0844 41.0486 26.1157 38.9223 25.7203ZM17.75 27.8926C17.7501 25.5796 18.594 23.3461 20.1235 21.611C21.6529 19.8759 23.7628 18.7583 26.0574 18.4678C28.3521 18.1773 30.6739 18.7339 32.5875 20.0332C34.501 21.3325 35.8748 23.2852 36.4513 25.5252C33.4083 25.6051 30.5119 26.8496 28.3595 29.0021C26.2069 31.1545 24.9624 34.0508 24.8826 37.0939C22.8429 36.5661 21.036 35.3762 19.7452 33.7111C18.4544 32.0459 17.7527 29.9994 17.75 27.8926ZM36.75 46.8926C34.6431 46.8898 32.5967 46.1882 30.9315 44.8973C29.2663 43.6065 28.0765 41.7996 27.5487 39.76C30.5917 39.6801 33.4881 38.4356 35.6405 36.2831C37.7931 34.1306 39.0376 31.2343 39.1174 28.1912C41.3574 28.7678 43.3101 30.1416 44.6093 32.0551C45.9087 33.9687 46.4653 36.2906 46.1748 38.5852C45.8842 40.8798 44.7667 42.9897 43.0315 44.5191C41.2965 46.0485 39.063 46.8925 36.75 46.8926Z" fill="white"/>
+									</svg>
+
 									<h3 class="features--card__title">
 										Billing and invoicing
 									</h3>
@@ -246,6 +244,130 @@
 							</article>
 						</li>
 					</ul>
+				</div>
+			</section>
+
+			<section class="section container">
+				<div class="section__body">
+					<header class="pricing__header">
+						<span class="subtitle">Pricing</span>
+						<h2 class="pricing__title">Our Price</h2>
+						<div class="pricing__description">
+							<p>Projectile helps you collaborate more smoothly and communicate better.  Projectile helps you collaborate
+								more smoothly and communicate better. </p>
+						</div>
+					</header>
+
+					<article class="pricing--card pricing--card__standard left">
+						<div class="pricing--card__header">
+							<p class="pricing--card__title">Standard</p>
+							<p class="pricing--card__description">For solo designer</p>
+							<div class="pricing--card__line"></div>
+							<h2 class="pricing--card__price"> <span>$</span> 29 USD</h2>
+							<p class="pricing--card__price--time">per person, per month</p>
+						</div>
+						<div class="pricing--card__header">
+							<ul class="pricing--card__list">
+								<li class="pricing--card__item">
+									<svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 5.64258L5 9.64258L13 1.64258" stroke="#398378" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									lorem ipsum dummu text
+								</li>
+								<li class="pricing--card__item">
+									<svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 5.64258L5 9.64258L13 1.64258" stroke="#398378" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+
+									lorem ipsum dummu text
+								</li>
+								<li class="pricing--card__item">
+									<svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 5.64258L5 9.64258L13 1.64258" stroke="#398378" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+
+									lorem ipsum dummu text
+								</li>
+							</ul>
+						</div>
+						<div class="pricing--card__button">
+							<button type="button" class="pricing--card__btn button">Get Started</button>
+						</div>
+					</article>
+
+					<article class="pricing--card pricing--card__highlighted">
+						<div class="pricing--card__header">
+							<p class="pricing--card__title">Premium <span class="badge">MOST POPULAR</span> </p>
+							<p class="pricing--card__description">For small startup and agency</p>
+							<div class="pricing--card__line"></div>
+							<h2 class="pricing--card__price"> <span>$</span> 99 USD</h2>
+							<p class="pricing--card__price--time">per person, per month</p>
+						</div>
+						<div class="pricing--card__header">
+							<ul class="pricing--card__list">
+								<li class="pricing--card__item">
+									<svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 5.64258L5 9.64258L13 1.64258" stroke="#398378" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									lorem ipsum dummu text
+								</li>
+								<li class="pricing--card__item">
+									<svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 5.64258L5 9.64258L13 1.64258" stroke="#398378" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+
+									lorem ipsum dummu text
+								</li>
+								<li class="pricing--card__item">
+									<svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 5.64258L5 9.64258L13 1.64258" stroke="#398378" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+
+									lorem ipsum dummu text
+								</li>
+							</ul>
+						</div>
+						<div class="pricing--card__button">
+							<button type="button" class="pricing--card__btn button button--transparent">Get Started</button>
+						</div>
+					</article>
+
+					<article class="pricing--card pricing--card__standard right">
+						<div class="pricing--card__header">
+							<p class="pricing--card__title">Standard</p>
+							<p class="pricing--card__description">For solo designer</p>
+							<div class="pricing--card__line"></div>
+							<h2 class="pricing--card__price"> <span>$</span> 29 USD</h2>
+							<p class="pricing--card__price--time">per person, per month</p>
+						</div>
+						<div class="pricing--card__header">
+							<ul class="pricing--card__list">
+								<li class="pricing--card__item">
+									<svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 5.64258L5 9.64258L13 1.64258" stroke="#398378" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+									lorem ipsum dummu text
+								</li>
+								<li class="pricing--card__item">
+									<svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 5.64258L5 9.64258L13 1.64258" stroke="#398378" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+
+									lorem ipsum dummu text
+								</li>
+								<li class="pricing--card__item">
+									<svg width="14" height="11" viewBox="0 0 14 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M1 5.64258L5 9.64258L13 1.64258" stroke="#398378" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+									</svg>
+
+									lorem ipsum dummu text
+								</li>
+							</ul>
+						</div>
+						<div class="pricing--card__button">
+							<button type="button" class="pricing--card__btn button">Get Started</button>
+						</div>
+					</article>
 				</div>
 			</section>
 	</main>

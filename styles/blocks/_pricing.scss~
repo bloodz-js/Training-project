@@ -1,0 +1,29 @@
+.pricing {
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+
+    &>*:not(:first-child) {
+      margin-bottom: 36px;
+    }
+  }
+
+  &__description {
+    max-width: 891px;
+    text-align: center;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  &__body--card {
+    display: flex;
+    justify-content: center; /* Центрируем карточки по горизонтали */
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+

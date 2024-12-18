@@ -21,5 +21,10 @@
     align-items: flex-start;
     gap: 40px;
   }
+
+  &__header {
+    flex: 1;
+    max-width: 370px;
+  }
 }
 

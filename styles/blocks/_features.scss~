@@ -17,9 +17,13 @@
     }
   }
   &__layout {
-    display: flex; /* Включаем flex-контейнер */
+    display: flex;
     align-items: flex-start;
     gap: 40px;
+  }
+
+  &__header {
+    
   }
 }
 

@@ -7,7 +7,7 @@
   border-radius: var(--border-radius-button);
   border: none;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 28px;
 
   @include hover {
     box-shadow: var(--shadow-hover);

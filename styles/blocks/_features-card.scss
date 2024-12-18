@@ -17,8 +17,7 @@
     gap: 30px;
 
     svg {
-      width: 64px;
-      height: 65px;
+      flex-shrink: 0;
 
       & path {
         fill: white;
@@ -40,6 +39,17 @@
   &:hover {
     background-color: var(--color-main);
     box-shadow: var(--shadow-hover);
+
+    svg{
+     & path {
+       transition:  ease-in-out 0.3s 0.05s;
+        fill: black;
+      }
+      & rect {
+        transition:  ease-in-out 0.3s 0.05s;
+        fill: white;
+      }
+    }
   }
 
 }
