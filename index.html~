@@ -9,15 +9,23 @@
 	<title>Cleanlist</title>
 </head>
 <body>
-<div class="background-gradient">
-	<div class="background">
+<div class="background__gradient">
+	<div class="background__image">
 		<img
-				class="background-image"
+				class="background__img-1"
 				src="./images/background-image.svg"
 				alt=""
 				width="902" height="791" loading="lazy"
 		/>
+
 	</div>
+
+		<img
+				class="background__img-2"
+				src="./images/bg-image-2.svg"
+				alt=""
+				width="507" height="80" loading="lazy"
+		>
 
 	<header class="header container">
 		<div class="header__inner">
@@ -45,8 +53,10 @@
 					</li>
 				</ul>
 			</nav>
-			<button type="button" class="header__button-SignUp button">Sign Up</button>
-			<button type="button" class="header__button-Demo button button--transparent">Demo</button>
+			<div class="header__signup-demo">
+				<button type="button" class="header__button-SignUp button">Sign Up</button>
+				<button type="button" class="header__button-Demo button button--transparent">Demo</button>
+			</div>
 		</div>
 	</header>
 
@@ -135,6 +145,7 @@
 							<p>Projectile helps you collaborate more smoothly and communicate better.</p>
 						</div>
 					</header>
+
 					<ul class="feature__list grid grid--2">
 						<li class="features__item">
 							<article class="features--card">

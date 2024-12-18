@@ -1,5 +1,9 @@
 .features {
 
+  &__background {
+    position: absolute;
+  }
+
   &__title {
     padding-bottom: 40px;
   }
@@ -23,7 +27,8 @@
   }
 
   &__header {
-    
+    flex: 1;
+    max-width: 370px;
   }
 }
 

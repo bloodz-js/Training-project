@@ -8,6 +8,11 @@ body {
 }
 
 
+.background-image {
+  position: absolute;
+  z-index: 0;
+}
+
 a,
 button,
 input,

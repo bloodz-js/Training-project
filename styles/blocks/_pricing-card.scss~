@@ -17,6 +17,7 @@
   margin-left: 10px;
   display: inline-block;
   line-height: 12px;
+  vertical-align: 10px;
 }
 
 .pricing--card {
@@ -103,6 +104,6 @@
 
   &__standard:hover {
     transform: translateY(-5px);
-    box-shadow: var(--shadow-hover);
+    box-shadow: var(--shadow);
   }
 }

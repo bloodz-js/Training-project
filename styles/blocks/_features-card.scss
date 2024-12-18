@@ -21,10 +21,12 @@
 
       & path {
         fill: white;
+        transition: fill 0.3s ease-in-out;
         }
 
       & rect {
         fill: var(--color-main);
+        transition: fill 0.3s ease-in-out;
       }
     }
 
@@ -41,12 +43,13 @@
     box-shadow: var(--shadow-hover);
 
     svg{
+
      & path {
-       transition:  ease-in-out 0.3s 0.05s;
+       transition: all 0.3s ease-in-out 0.05s;
         fill: black;
       }
       & rect {
-        transition:  ease-in-out 0.3s 0.05s;
+        transition: all 0.3s ease-in-out 0.05s;
         fill: white;
       }
     }
