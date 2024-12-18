@@ -8,6 +8,7 @@
   border: none;
   font-size: 14px;
   line-height: 18px;
+  z-index: 1000;
 
   @include hover {
     box-shadow: var(--shadow-hover);
