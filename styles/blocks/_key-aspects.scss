@@ -1,0 +1,25 @@
+.key-aspects {
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: var(--section-padding-y-main);
+
+        &>*:not(:first-child) {
+            margin-bottom: 36px;
+        }
+    }
+
+    &__description {
+        max-width: 891px;
+        text-align: center;
+        line-height: 32px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    &__bg {
+        background-color: rgba(57, 131, 120, 5%);
+    }
+}
