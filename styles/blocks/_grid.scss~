@@ -1,14 +1,29 @@
 .grid {
   --gridColumns: 1;
+  --rowGap: 32px;  // Значение по умолчанию для row-gap
+  --columnGap: 30px; // Значение по умолчанию для column-gap
 
   display: grid;
   grid-template-columns: repeat(var(--gridColumns), 1fr);
-  row-gap: 32px;
-  column-gap: 30px;
+  row-gap: var(--rowGap);
+  column-gap: var(--columnGap);
 
+  // Цикл для динамического создания классов для разных gridColumns
   @for $i from 2 through 12 {
     &--#{$i} {
-      --gridColumns: ;
+      --gridColumns: #{$i};
+    }
+  }
+
+  // Переопределение значений для grid--3
+  &--3 {
+    &.gap-1 {
+      --rowGap: 80px;
+      --columnGap: 50px;
+    }
+    &.gap-2 {
+      --rowGap: 42px;
+      --columnGap: 16px;
     }
   }
 }

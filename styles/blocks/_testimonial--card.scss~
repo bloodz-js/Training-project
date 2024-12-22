@@ -1,0 +1,60 @@
+.testimonial--card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  background-color: white;
+  padding: 30px 25px;
+  color: black;
+  height: 207px;
+  margin: 0;
+
+  &__citation {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  &__line {
+    margin: 13px 0;
+    width: 84px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(102,102,102,1) 0%, rgba(102,102,102,0) 100%);
+
+  }
+
+  &__bottom-block {
+    display: flex;
+    align-items: flex-start;
+    margin-top: auto;
+  }
+
+  &__logo {
+    border-radius: 50%;
+    margin-right: 25px;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+  }
+
+  &__name {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    font-family: Inter;
+  }
+
+  &__post {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: Inter;
+    color: rgb(151, 152, 159);
+
+  }
+}
