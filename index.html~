@@ -766,6 +766,7 @@
 		</div>
 	</section>
 </div>
+<div class="footer__bg">
 	<footer class="footer container">
 		<div class="footer__top">
 			<div class="footer__top-title">
@@ -892,6 +893,8 @@
 			<p>Copyright © 2022. Brilworks . All rights reserved.</p>
 		</div>
 	</footer>
+</div>
+
 	</main>
 </body>
 </html>
